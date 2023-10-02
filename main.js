@@ -1996,5 +1996,6 @@ if (submitButton) {
     document.getElementById("following").innerHTML = userData.following;
     document.getElementById("repos").innerHTML = userData.public_repos;
     document.getElementById("profile").href = userData.html_url;
+    document.getElementById("names").href = userData.html_url;
   });
 }
